@@ -1,0 +1,32 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+       Scanner s=new Scanner(System.in);
+       int a;
+       int c=0;
+       a=s.nextInt();
+       for (int i=1;i<=a;i++){
+           c+=Math.pow(i,2);
+       }
+       System.out.println(c);
+    }
+}
+
+
+reverse array:
+
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int a[]=new int[100];
+        int n;
+        n=s.nextInt();
+        for (int i=0;i<n;i++){
+            a[i]=s.nextInt();
+            }
+        for (int i=n-1;i>-1;i--){
+            System.out.print(a[i]+" ");
+        }
+    }
+}
